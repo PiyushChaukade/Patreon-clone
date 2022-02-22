@@ -1,0 +1,72 @@
+.createpage{
+  
+    border: 1px solid #e5e3dd;
+    width: 60%;
+    margin: auto;
+    display: inline-flex;
+}
+.creatediv{
+    /* padding: 28px; */
+    text-align: left;
+   
+}
+.createpageimgdiv{
+    margin-top: 50px;
+    padding: 10px;
+  
+    height: fit-content;
+}
+.creatediv1>h1{
+  color:rgb(36, 30, 18) ;
+  font-weight:600;
+  font-size:26px;
+
+  line-height: 32.5px;
+  text-align: left;
+  vertical-align:baseline;
+  font-family: Walsheim, sans-serif;
+}
+
+.checkboxdiv{
+    display: grid;
+    grid-template-columns: auto auto ;
+    padding-bottom: 32px;
+    margin-left: 5%;
+     
+}
+#span1{
+color: #706c64;
+font-family:aktiv-grotesk, sans-serif ;
+font-size: 14px;
+line-height: 18px;
+font-weight: 400;
+margin:12px 0px 24px;
+}
+#span1>a{
+   text-decoration: underline;
+   color: rgb(0, 76, 129);
+    }
+#button{
+    background-color:rgb(0, 73, 124);
+    padding:14.5px 24px;
+    border-radius: 25px;
+    font-size: 16px;
+    color: white;
+    border: none;
+}
+#link1{
+    color: white;
+    text-decoration: none;
+}
+#adultdiv{
+    padding: 10px;
+    display: none;
+}
+.creatediv1{
+    width: 90%;
+    padding: 20px;
+}
+#inline{
+    display: grid;
+    grid-template-columns: auto auto;
+}

@@ -1,0 +1,68 @@
+#creatpage2{
+    border: 1px solid #e5e3dd;
+    width: 60%;
+    margin: auto;
+    display: inline-flex;
+}
+.creatediv2{
+   
+        /* padding: 28px; */
+        text-align: left;
+        padding: 20px;
+    
+}
+.creatediv3{
+    
+    width: 55%;
+    padding: 20px;
+  
+
+}
+.creatediv3>div{
+    color:rgb(36, 30, 18) ;  
+font-size: 14px;
+font-family:aktiv-grotesk, sans-serif ;
+line-height:24px;
+font-weight: 400;
+}
+.creatediv3>h1{
+    color:rgb(36, 30, 18) ;
+    font-weight:600;
+    font-size:26px;
+  
+    line-height: 32.5px;
+    text-align: left;
+    vertical-align:baseline;
+    font-family: Walsheim, sans-serif;
+  }
+  .creatediv3>p{
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    font-weight:700;
+    color: #706c64;
+    font-family: aktiv-grotesk, sans-serif;
+    
+}
+  #checkboxdiv3{
+    display: grid;
+    grid-template-columns: auto auto ;
+    padding-bottom: 32px;
+    margin-left: 10%;
+    grid-gap: 3%;
+    grid-column-gap: 40px;
+    font-family:aktiv-grotesk, sans-serif ;
+  color: rgb(36, 30, 18);
+
+  }
+ 
+  #linlbutt{
+      margin-top: 5%;
+      margin-left: 5%;
+      padding-bottom: 5px;
+
+  }
+  #checkboxdiv3>label{
+  font-family:aktiv-grotesk, sans-serif ;
+  color: rgb(36, 30, 18);
+  }
