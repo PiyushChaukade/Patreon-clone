@@ -1,0 +1,73 @@
+.createpage4{
+  
+    border: 1px solid #e5e3dd;
+    width: 52%;
+    margin: auto;
+   
+    
+}
+.creatediv4_1{
+    text-align: left;
+   
+}
+.creatediv4_2{
+    width: 80%;
+    padding: 34px;
+   
+}
+
+.creatediv4_2>h1{
+  color:rgb(36, 30, 18) ;
+  font-weight:600;
+  font-size:22px;
+
+  line-height: 32.5px;
+  text-align: left;
+  vertical-align:baseline;
+  font-family: Walsheim, sans-serif;
+}
+.creatediv4_2>p:nth-child(1){
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    font-weight:700;
+    color: #706c64;
+    font-family: aktiv-grotesk, sans-serif;
+}
+.creatediv4_2>p:nth-child(2){
+    font-size: 16px;
+    line-height: 24px;
+    
+    font-weight:400;
+    color: rgb(36, 30, 18);
+    font-family: aktiv-grotesk, sans-serif;
+}
+/* .creatediv4_2>div{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: normal;
+    font-weight:700;
+    color: #241e12;
+    font-family: aktiv-grotesk, sans-serif;
+} */
+
+.createpageimgdiv4>img{
+    margin-top: 70px;
+    height: fit-content;
+    padding-right: 40px;
+    
+   
+}
+
+
+#linlbutt4{
+    
+    margin-left: 5%;
+    padding-bottom: 30px;
+}
+
+#twitch{
+    width: 30px;
+    height: 25px;
+    
+}
