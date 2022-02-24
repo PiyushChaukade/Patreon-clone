@@ -8,7 +8,16 @@ import Radio from '@mui/material/Radio';
 import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
-import FormLabel from '@mui/material/FormLabel';
+import fox from "../../../assests/images/fox.jpg"
+import uploadimage from "../../../assests/images/uploadimage.png"
+import { blueGrey } from '@mui/material/colors';
+import IconButton from '@mui/material/IconButton';
+import PhotoCamera from '@mui/icons-material/PhotoCamera';
+
+
+const Input = styled('input')({
+  display: 'none',
+});
 
 const BpIcon = styled('span')(({ theme }) => ({
   borderRadius: '50%',
@@ -124,9 +133,68 @@ export const Basic =()=>{
                    </span>
                    
                    </div>
-                
-
                  </div>
+
+                 <div id="inputcontainer1_2"> 
+
+                 <div id="inputdiv2">
+
+                    <span>Profile photo<p>Required</p> <p>We recommend a 256px by 256px image.</p></span>
+                          <div class="container">
+                            <img src={fox} alt="Avatar" class="image"/>
+                               <div class="overlay">
+                                   <div class="text">
+                                      <label htmlFor="icon-button-file"  >
+                                           <Input accept="image/*" id="icon-button-file" type="file" />
+                                           <IconButton color="primary" aria-label="upload picture" component="span">
+                                           <PhotoCamera  sx={{ color: blueGrey[50] }} />
+                                           </IconButton> <br/>
+                                            Edit
+                                      </label>
+                                   </div>
+                               </div>
+                           </div> 
+
+                        </div>
+
+
+                        <div id="inputdiv2">
+
+                                <span>Cover photo<p>Required</p> <p>We recommend an image at least 1600px wide and 400px tall.</p></span>
+                                <div class="container1">
+                                    <img src={uploadimage} alt="Avatar" class="image1"/>
+                                      <div class="overlay1">
+                                         <div class="text1">
+                                           <label htmlFor="icon-button-file"  >
+                                                <Input accept="image/*" id="icon-button-file" type="file" />
+                                                  <IconButton color="primary" aria-label="upload picture" component="span">
+                                                  <PhotoCamera  sx={{ color: blueGrey[50] }} />
+                                               </IconButton> <br/>
+                                                Edit
+                                            </label>
+                                           </div>
+                                      </div>
+                                </div> 
+        
+                        </div>
+                         <div id="inputdiv2">
+
+                                            <span>Patreon page URL</span>
+                                          <span>
+                                          patreon.com/<input type="text" id="name1" name="name" required placeholder="creatoraccount"
+                                          minlength="3" maxlength="15" size="10"/>
+                                         </span>
+                   
+                                </div>
+                
+                 </div>
+
+
+
+                 
+
+
+
              </div>
 
 
