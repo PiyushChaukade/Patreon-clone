@@ -23,10 +23,10 @@ grid-template-columns: 63% 33%;
 height: 700px;
 grid-gap: 3%;
 }
-#inputcontainer1{
+/* #inputcontainer1{
     
     
-}
+} */
 #inputcontainer2{
         border: 1px solid yellow;
         margin-top: 15px;
