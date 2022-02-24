@@ -50,3 +50,7 @@
     
     text-decoration-line: underline;
   } */
+  #basic-button{
+    text-transform: capitalize;
+    color: #706c64;
+  }
