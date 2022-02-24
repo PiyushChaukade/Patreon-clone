@@ -10,11 +10,13 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
 import fox from "../../../assests/images/fox.jpg"
 import uploadimage from "../../../assests/images/uploadimage.png"
-import { blueGrey } from '@mui/material/colors';
+import { blueGrey, green } from '@mui/material/colors';
 import IconButton from '@mui/material/IconButton';
 import PhotoCamera from '@mui/icons-material/PhotoCamera';
 import { Example } from "./texteditor/texteditor";
 import Button from '@mui/material/Button';
+
+import Checkbox from '@mui/material/Checkbox';
 
 const Input = styled('input')({
   display: 'none',
@@ -226,31 +228,81 @@ export const Basic =()=>{
              {/* //main container 1  div end */}
 
 
-             <div id="inputcontainer2" >
-                <div id="inputcontainer2_1" >
+               <div id="inputcontainer2" >
+                  <div id="inputcontainer2_1" >
 
-                      <div>
-                       <Button variant="contained" disabled>Disabled </Button>
+                      <div id="inputcontainer2_1_buttondiv">
+                       <Button variant="contained" disabled>Save Changes </Button>
                       </div>
 
-                       <div></div>
+                       <div id="inputcontainer2_2">
+                         <p>CHECKLIST</p>
+                         <span>
+                         <Checkbox  defaultChecked label="Label" sx={{  color: green[800], '&.Mui-checked': {color: green[600]}}}/>
+                         Set your page name
+                         </span>
+
+                         <span>
+                         <Checkbox defaultChecked label="Label" sx={{  color: green[800], '&.Mui-checked': {color: green[600]}}}/>
+                         Create your headline Required
+ 
+                         </span>
+
+                         <span>
+                         <Checkbox defaultChecked label="Label" sx={{  color: green[800], '&.Mui-checked': {color: green[600]}}}/>
+                         Verify email address
+                         </span>
+
+                         <span>
+                         <Checkbox defaultChecked label="Label" sx={{  color: green[800], '&.Mui-checked': {color: green[600]}}}/>
+                         Upload profile picture
+                         </span>
+
+                         <span>
+                         <Checkbox defaultChecked label="Label" sx={{  color: green[800], '&.Mui-checked': {color: green[600]}}}/>
+                         Upload cover image Required
+                         </span>
+
+                         <span>
+                         <Checkbox defaultChecked label="Label" sx={{  color: green[800], '&.Mui-checked': {color: green[600]}}}/>
+                         Create about sectionRequired
+                         </span>
+
+                         <span>
+                         <Checkbox defaultChecked label="Label" sx={{  color: green[800], '&.Mui-checked': {color: green[600]}}}/>
+                         Finish account details Required
+                         </span>
+                      
+                        <div id="inputcontainer2_3">
+                            <p>LEARN MORE</p>  
+                                   <ul>
+                                         <li>Membership 101: Best Practices</li>
+                                         <li>How to choose your business model</li>
+                                         <li>How to talk about Patreon to your audience</li>
+                                         <li>Knowing your worth as a creator</li>
+                                         
+                                  </ul> 
+                         </div>
+
+
+                       </div>
                        
+                   </div>
                 </div>
-             </div>
                 {/* //main container 2  div end */}
 
 
 
             
                 
-             </div>
+              </div>
+
+           </div>
+
+
 
          </div>
-
-
-
-         </div>
-        </div>
+        
     )
 }
 

@@ -1,0 +1,122 @@
+#tiersmaindiv{
+padding: 20px;
+border: 1px solid #e5e3dd;
+border-radius: 5px;
+margin-top: 15px;
+width: 72%;
+margin: auto;
+}
+#tiersmaindiv>h1{
+    padding:10px 14px;
+    
+    font-size: 26px;
+    line-height: 32.5px;
+    font-weight: 700;
+    color: #241e12;
+
+    }
+.dropbtn {
+    background-color: #f5f4f2;
+    color: black;
+    padding: 12px;
+    font-size: 15px;
+    width: 160px;
+    line-height: 21px;
+    cursor: pointer;
+    border: 1px solid #e5e3dd;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 400;
+    border-bottom: 1px solid #e5e3dd;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: white;
+    border: 1px solid #e5e3dd;
+  }
+  #tiersmaindiv>p{
+      color: #241e12;
+      padding: 8px 12px;
+      line-height: 25px;
+      font-size: 17px;
+      font-weight: 600;
+  }
+  #tiersmaindiv1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 87%;
+    
+   margin: auto;
+   grid-column-gap: 35px;
+   margin-left: 7%;
+   padding-bottom: 30px;
+
+   }
+  #tiersmaindiv1>div{
+  
+   border-radius: 3px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   width: 87%;
+   height: 90%;
+
+  }
+  #tier1div{
+      padding: 20px;
+      align-items: left;
+      text-align: left;
+     
+  }
+  #tier1div>img{
+    padding-right: 15px;
+    width: 100%;
+   
+}
+  #tier1div>h3{
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 21px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+#tier1div>h3:nth-child(4),
+#tier1div>h3:nth-child(5){
+    background-color: #f5f4f2;
+ }
+ #tier1div>p{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 21px;
+    color:241e12 ;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ #buttontier{
+     border-radius: 25px;
+     padding: 12px;
+ }

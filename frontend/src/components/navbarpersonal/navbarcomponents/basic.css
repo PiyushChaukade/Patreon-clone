@@ -7,7 +7,7 @@
     font-family: aktiv-grotesk, sans-serif;
 }
 #basic>p{
-    font-size: 14px;
+    font-size: 16px;
     line-height: 22px;
     font-weight: 400;
     color: #706c64;
@@ -33,8 +33,8 @@ grid-gap: 3%;
     
 } */
 #inputcontainer2{
-        border: 1px solid yellow;
-
+      
+        height: fit-content;
         margin-top: 15px;
 }
 #inputcontainer1_1,
@@ -166,7 +166,7 @@ border-radius: 50%;
         overflow: hidden;
         width: 100%;
         height:0;
-        transition: .5s ease;
+        transition: .2s ease;
     
         opacity: 0.9;
       }
@@ -223,15 +223,64 @@ border-radius: 50%;
      }
      #texteditor{
          margin-bottom: 20px;
-         
+
      }
 
 
 /* //right cont means container 2--------------------------------------------------------------------------- */
-/* #inputcontainer2{
-    
-} */
 
-#inputcontainer2_1{
+#inputcontainer2_2{
+    text-align: left;
+    align-items: left;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: auto;
+    border: 1px solid #e5e3dd;
+    margin-top: 15px;
+    border-radius: 3px;
+}
+
+#inputcontainer2_2>p{
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1.4px;
+    font-weight: 700;
+    text-align: left;
+    color:#241e12 ;
+}
+#inputcontainer2_2>span{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    text-align: left;
+    color:#241e12 ;
+}
+
+
+#inputcontainer2_1_buttondiv>button{
+  width: 100%;
+  font-size: 16px;
+  color:#706c64 ;
+  font-weight:400;
+  padding: 10px;
+  border-radius: 25px;
+  text-transform: capitalize;
 
 }
+#inputcontainer2_3>p{
+    line-height: 21px;
+    letter-spacing: 1.4px;
+    font-weight: 700;
+    text-align: left;
+    color:#241e12 ;
+}
+#inputcontainer2_3>ul>li{
+    line-height: 21px;
+    font-size: 14px;
+    
+    font-weight: 400;
+    text-align: left;
+    color:#241e12 ;
+    text-decoration: underline;
+}
+
