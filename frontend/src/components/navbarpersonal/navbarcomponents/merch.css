@@ -1,0 +1,44 @@
+#merchcont{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 75%;
+    grid-column-gap:5%;
+    margin: auto;
+    text-align: left;
+}
+#merchbutton{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:#00497c ;
+    border-radius: 25px;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+#merchcont2>p:nth-child(1){
+   font-size: 26px;
+   line-height: 32.5px;
+   margin: 8px 0px;
+   color:#241e12 ;
+   font-family: aktiv-grotesk, sans-serif;
+   font-weight: 700;
+   text-align: left;
+}
+#merchcont2>p:nth-child(2){
+    font-size: 16px;
+    line-height: 24px;
+    
+    color:#241e12 ;
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 500;
+    text-align: left;
+ }
+ #merchcont2>p>a{
+    font-size: 16px;
+    line-height: 24px;
+    
+    color:#241e12 ;
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 500;
+    text-align: left;
+ }
