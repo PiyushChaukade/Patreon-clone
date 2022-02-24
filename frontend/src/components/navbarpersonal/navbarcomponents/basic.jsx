@@ -173,7 +173,8 @@ export const Basic =()=>{
                                                   <IconButton color="primary" aria-label="upload picture" component="span">
                                                   <PhotoCamera  sx={{ color: blueGrey[50] }} />
                                                </IconButton> <br/>
-                                                Edit
+                                                Edit Cover Photo
+                                                <p style={{fontSize:"10px"}}>(1,600px X 400px)</p>
                                             </label>
                                            </div>
                                       </div>
@@ -191,6 +192,7 @@ export const Basic =()=>{
                                 </div>
                 
                  </div>
+
 
 
                  <div id="inputcontainer1_3"> 
@@ -219,6 +221,7 @@ export const Basic =()=>{
                    </div>
 
                   </div>
+
 
 
                  
