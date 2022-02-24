@@ -29,12 +29,14 @@ grid-gap: 3%;
 }
 #inputcontainer2{
         border: 1px solid yellow;
-        
+        margin-top: 20px;
 }
-#inputcontainer1_1{
+#inputcontainer1_1,
+#inputcontainer1_2{
 padding: 25px;
 border: 1px solid #e5e3dd;
 border-radius: 5px;
+margin-top: 20px;
 }
 #inputdiv1{
     align-items: left;

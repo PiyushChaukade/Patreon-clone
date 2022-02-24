@@ -83,6 +83,7 @@ export const Basic =()=>{
             </div>
          <div id="inputcontainer">
              <div id="inputcontainer1">
+
                 <div id="inputcontainer1_1"> 
 
                   <div id="inputdiv1">
@@ -124,9 +125,18 @@ export const Basic =()=>{
                    </span>
                    
                    </div>
+                 </div>
+
+                      <div id="inputcontainer1_2"> 
+
                 
 
-                 </div>
+
+
+                
+
+                       </div>
+
              </div>
 
 

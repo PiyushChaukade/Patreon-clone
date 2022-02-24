@@ -15,6 +15,7 @@ import { Gettingpaid } from './components/navbarpersonal/navbarcomponents/gettin
 import { Pagesetting } from './components/navbarpersonal/navbarcomponents/pagesetting';
 import { Preview } from './components/navbarpersonal/navbarcomponents/preview';
 import { Advanced } from './components/navbarpersonal/navbarcomponents/advanced';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -45,10 +46,10 @@ function App() {
          
         </Routes>
     
-         
+        <Footer/>
 
    </BrowserRouter>
-
+   
   
 
     </div>

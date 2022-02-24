@@ -13,7 +13,11 @@ import {
   Thirdcont,
   P,
 } from "./FooterStyles";
-  
+import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import { blue, red } from '@mui/material/colors';
 const Footer = () => {
   return (
     <Box>
@@ -81,17 +85,17 @@ const Footer = () => {
       </Container>
       <SecondCont>
         <Logo>
-        <img style={{width: "35px",color : "white"}} alt="twitter" src="https://www.twitter.com/patreon"/>
+        <TwitterIcon sx={{ color: blue[500] }}/>
         </Logo>
         <Logo>
-        <img style={{width: "35px",color : "white"}} alt="facebook" src="https://img.icons8.com/ios-filled/500/000000/facebook-new.png"/>
+        <FacebookRoundedIcon sx={{ color: blue[500] }}/>
         </Logo>
         <Logo>
-        <img style={{width: "35px",color : "white"}} alt="instagram" src="https://img.icons8.com/ios/500/000000/instagram-new--v1.png"/>
+        <InstagramIcon sx={{ color: blue[500] }}/>
 
         </Logo>
         <Logo>
-        <img style={{width: "35px",color : "white"}} alt="youtube" src="https://img.icons8.com/ios/500/000000/youtube-play--v1.png"/>
+        <YouTubeIcon sx={{ color: red[500] }}/>
         </Logo>
       </SecondCont>
       <Thirdcont>
