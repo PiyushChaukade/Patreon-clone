@@ -13,6 +13,7 @@ import uploadimage from "../../../assests/images/uploadimage.png"
 import { blueGrey } from '@mui/material/colors';
 import IconButton from '@mui/material/IconButton';
 import PhotoCamera from '@mui/icons-material/PhotoCamera';
+import { Example } from "./texteditor/texteditor";
 
 
 const Input = styled('input')({
@@ -83,7 +84,7 @@ function BpRadio(props) {
 export const Basic =()=>{
     return(
 
-        <div> <Navbar/>
+        <div id="navrbarcont"> <Navbar/>
          <div className="contaier">
              <div id="basic">
  
@@ -191,6 +192,33 @@ export const Basic =()=>{
                 
                  </div>
 
+
+                 <div id="inputcontainer1_3"> 
+                            <div id="inputcontainer1_3_1">
+                            <div id="text">
+                              <span>About your Patreon page</span>
+                              <p>Required</p>
+                              <p>This is the first thing potential patrons will see when they land on your page,
+                                 so make sure you paint a compelling picture of how they can join you on this journey.</p>
+                            </div>
+
+
+                            <div id="texteditor">
+                            <Example/>
+                            </div>
+                             <div id="inputdiv1">
+
+                                       <span>Intro video<p>Don't worry — this is optional and it's okay to launch without a video.</p></span>
+                                         <span>
+                                       <input type="text" id="name" name="name" required placeholder="Video URL"
+                                     minlength="4" maxlength="8" size="10"/>
+                                  </span>
+
+                          </div>
+                           
+                   </div>
+
+                  </div>
 
 
                  

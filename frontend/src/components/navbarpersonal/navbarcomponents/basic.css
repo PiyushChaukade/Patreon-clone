@@ -1,3 +1,8 @@
+#navrbarcont{
+    height: fit-content;
+}
+
+
 #basic{
     font-family: aktiv-grotesk, sans-serif;
 }
@@ -20,7 +25,7 @@ width: 72%;
 margin: auto;
 display: grid;
 grid-template-columns: 63% 33%;
-height: 700px;
+height: fit-content;
 grid-gap: 3%;
 }
 /* #inputcontainer1{
@@ -33,7 +38,8 @@ grid-gap: 3%;
         margin-top: 15px;
 }
 #inputcontainer1_1,
-#inputcontainer1_2{
+#inputcontainer1_2,
+#inputcontainer1_3{
 padding: 25px 25px 1px 25px;
 border: 1px solid #e5e3dd;
 border-radius: 5px;
@@ -193,4 +199,28 @@ border-radius: 50%;
        border-radius: 5px;
        background-color: #faebec;
      }
-     
+     /* //cont1.3--------------------------------------- */
+#inputcontainer1_3{
+    text-align: left;
+    align-items: left;
+}
+
+
+     #text>span{
+     font-size: 16px;
+     line-height: 24px;
+     margin: 16px 0px;
+     font-weight: 700;
+     color: #241e12;
+     }
+     #text>p{
+        color: #706c64;
+        margin-right: 25px;
+        font-size: 14px;
+        line-height: 21px;
+        font-family: aktiv-grotesk, sans-serif;
+        font-weight: 400;
+     }
+     #texteditor{
+         margin-bottom: 20px;
+     }
