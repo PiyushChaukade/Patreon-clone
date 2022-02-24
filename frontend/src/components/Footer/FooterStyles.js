@@ -4,7 +4,7 @@ export const Box = styled.div`
   /* padding: 80px 60px; */
   background: black;
   position:relative;
- margin-top: 300px;
+ margin-top: 80px;
   bottom: 0;
   width: 100%;
   height: fit-content;
