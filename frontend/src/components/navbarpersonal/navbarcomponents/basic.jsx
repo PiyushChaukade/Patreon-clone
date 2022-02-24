@@ -14,7 +14,7 @@ import { blueGrey } from '@mui/material/colors';
 import IconButton from '@mui/material/IconButton';
 import PhotoCamera from '@mui/icons-material/PhotoCamera';
 import { Example } from "./texteditor/texteditor";
-
+import Button from '@mui/material/Button';
 
 const Input = styled('input')({
   display: 'none',
@@ -222,21 +222,31 @@ export const Basic =()=>{
 
                   </div>
 
+             </div> 
+             {/* //main container 1  div end */}
 
 
-                 
+             <div id="inputcontainer2" >
+                <div id="inputcontainer2_1" >
 
+                      <div>
+                       <Button variant="contained" disabled>Disabled </Button>
+                      </div>
 
-
-             </div>
-
-
-             <div id="inputcontainer2" ></div>
-                <div id="inputcontainer2_1">
-                          <div></div>
-                          <div></div>
+                       <div></div>
+                       
                 </div>
              </div>
+                {/* //main container 2  div end */}
+
+
+
+            
+                
+             </div>
+
+         </div>
+
 
 
          </div>
