@@ -23,41 +23,52 @@ grid-template-columns: 63% 33%;
 height: 700px;
 grid-gap: 3%;
 }
-#inputcontainer1{
+/* #inputcontainer1{
     
     
-}
+} */
 #inputcontainer2{
         border: 1px solid yellow;
-        margin-top: 20px;
+
+        margin-top: 15px;
 }
 #inputcontainer1_1,
 #inputcontainer1_2{
-padding: 25px;
+padding: 25px 25px 1px 25px;
 border: 1px solid #e5e3dd;
 border-radius: 5px;
-margin-top: 20px;
+margin-top: 15px;
+
 }
-#inputdiv1{
+
+
+#inputdiv1,
+#inputdiv2{
     align-items: left;
     text-align: left;
     display: grid;
 grid-template-columns: 35% 55%;
-padding-bottom: 10px;
+padding-bottom: 0px;
+margin-bottom: 30px;
 }
-#inputdiv1>span {
+
+#inputdiv1>span,
+#inputdiv2>span
+ {
     margin-right: 25px;
     font-size: 14px;
     font-family: aktiv-grotesk, sans-serif;
     font-weight: 700;
 }
-#inputdiv1>span>p {
+#inputdiv1>span>p,
+#inputdiv2>span>p {
     color: #706c64;
     margin-right: 25px;
     font-size: 14px;
     line-height: 21px;
     font-family: aktiv-grotesk, sans-serif;
     font-weight: 400;
+    
 }
 
 #name
@@ -72,3 +83,114 @@ padding-bottom: 10px;
   background-color: #faebec;
    
 }
+
+
+/* //cont---------------------------------------------------------------- */
+
+.container>img{
+
+width: 100%;
+border-radius: 50%;
+}
+
+.container {
+    position: relative;
+    width: 40%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+    border-radius: 50%;
+    opacity: 0.9;
+  }
+  
+  .container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+  }
+/* //cont1---------------------------------------------------------------- */
+    
+  .container1 {
+    position: relative;
+    width: 118%;
+    height: 90%;
+   
+  }
+  .container1>img{
+    width: 100%;
+    }
+    .image1 {
+        display: block;
+        width: 100%;
+        height: 100%;
+    } 
+    .overlay1 {
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        right: 0;
+        background-color: black;
+        overflow: hidden;
+        width: 100%;
+        height:0;
+        transition: .5s ease;
+    
+        opacity: 0.9;
+      }
+      
+      .container1:hover .overlay1 {
+        bottom: 0;
+        height: 100%;
+      }
+      
+      .text1{
+        color: white;
+        font-size: 15px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        
+      }
+      #name1
+      {
+        padding:10px 14px;
+         width: 58%;
+         font-size: 14px;
+         line-height: 20px;
+         font-weight: 500;
+        border: 1px solid #e5e3dd;
+       border-radius: 5px;
+       background-color: #faebec;
+     }
+     
