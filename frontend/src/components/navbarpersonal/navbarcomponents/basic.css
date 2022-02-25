@@ -4,6 +4,7 @@
 
 
 #basic{
+  margin-top: 20px;
     font-family: aktiv-grotesk, sans-serif;
 }
 #basic>p{
@@ -50,14 +51,17 @@ margin-top: 15px;
 
 #inputdiv1,
 #inputdiv2{
-    align-items: left;
-    text-align: left;
+    align-items: left !important;
+    text-align: left !important;
     display: grid;
 grid-template-columns: 35% 55%;
 padding-bottom: 0px;
 margin-bottom: 30px;
+padding-right: 20px;
 }
-
+#inputcontainer1_3_1{
+  padding-right: 20px;
+  }
 #inputdiv1>span,
 #inputdiv2>span
  {
@@ -94,14 +98,20 @@ margin-bottom: 30px;
 /* //cont---------------------------------------------------------------- */
 
 .container>img{
-
+  float: left !important;
 width: 100%;
 border-radius: 50%;
+align-content: left !important;
+text-align: left !important;
+align-items: left !important;
 }
 
 .container {
+ 
     position: relative;
-    width: 40%;
+    width: 40% !important;
+   
+   
   }
   
   .image {

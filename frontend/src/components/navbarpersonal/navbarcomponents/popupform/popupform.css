@@ -1,0 +1,65 @@
+/* #editbutt1{
+    /* background-color:#e0e0e0;
+    border-radius: 25px;
+    border: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    margin-top: 15px;
+    text-transform:capitalize;
+    padding: 7px;
+    padding-left: 12px;
+    padding-right: 12px; */
+ 
+  #Country{
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 22px;
+
+  }
+  #Countrys{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+#popadd{
+  font-weight: 600;
+   font-size: 18px;
+   line-height: 22px;
+}
+#popinp{
+  width: 60%;
+}
+
+#popadd1{
+  font-weight: 600;
+   font-size: 18px;
+   line-height: 22px;
+}
+#popinp1{
+  width: 20%;
+  margin-bottom: 20px;
+}
+
+#popadd2{
+  font-weight: 600;
+   font-size: 18px;
+   line-height: 22px;
+}
+#popinp2{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#state{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+#states{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 15px;
+}

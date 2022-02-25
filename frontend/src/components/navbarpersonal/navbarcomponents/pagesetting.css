@@ -1,0 +1,445 @@
+#navrbarcont{
+    height: fit-content;
+}
+#basic{
+    font-family: aktiv-grotesk, sans-serif;
+}
+#basic>p{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #706c64;
+}
+#basic>h1{
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #241e12;
+}
+
+#pagecontainer{
+
+width: 75%;
+margin: auto;
+display: grid;
+grid-template-columns: 63% 33%;
+height: fit-content;
+grid-gap: 3%;
+}
+/* #inputcontainer1{
+    
+    
+} */
+#inputcontainer2{
+      
+        height: fit-content;
+        margin-top: 15px;
+}
+#pagecontainer1_1,
+#pagecontainer1_2,
+#pagecontainer1_3,
+#pagecontainer1_4,
+#pagecontainer1_5{
+padding: 25px 25px 1px 25px;
+border: 1px solid #e5e3dd;
+border-radius: 5px;
+margin-top: 15px;
+text-align: left;
+}
+#pagecontainer1_1>span{
+   margin-right: 25px;
+    font-size: 14px;
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 700;
+    text-align: left;
+    
+}
+
+#pagecontainer1_1>span>p {
+  color: #706c64;
+  margin-right: 25px;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 400;
+  text-align: left;
+  
+}
+
+#pagediv1,
+#pagediv2{
+    align-items: left;
+    text-align: left;
+    display: grid;
+grid-template-columns: 25% 60%;
+padding-bottom: 0px;
+margin-bottom: 30px;
+}
+
+#pagediv1>span,
+#pagediv2>span
+ {
+    margin-right: 25px;
+    font-size: 14px;
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 700;
+}
+#pagediv1>span>p,
+#pagediv2>span>p {
+    color: #706c64;
+    margin-right: 25px;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 400;
+    
+}
+
+#pagename
+ {
+   padding:10px 14px;
+    width: 400px;
+    height: 50px !important;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+   border: 1px solid #faebec;
+  border-radius: 3px;
+  background-color: #faebec;
+   
+}
+#extend{
+width: 130%;
+}
+#shorten{
+  margin-left: 30px;
+  width: 110%;
+
+}
+#shorten>div{
+  height: 40px;
+  width: 40px;
+  margin-right: 15px;
+  border-radius: 50%;
+  
+ display: inline-block;
+}
+
+#div1{
+background-color:#ff424d ;
+vertical-align: top;
+color: white;
+font-size: 24px ;
+font-weight: 700;
+line-height: 21px;
+padding: 7px;
+
+}
+/* #div1>doneicon{
+  color: white;
+  font-size: 24px !important;
+  font-weight: 700;
+  line-height: 21px;
+  padding: 7px;
+  
+  } */
+
+#div2{
+  background-color:black ;
+  vertical-align: top;
+  color: white;
+  font-size: 24px ;
+  font-weight: 700;
+  line-height: 21px;
+  padding: 7px;
+}
+#div3{
+  background-color:#dd4e00 ;
+  vertical-align: top;
+  color: white;
+  font-size: 24px ;
+  font-weight: 700;
+  line-height: 21px;
+  padding: 7px;
+}
+#div4{
+  background-color:#685150;
+  vertical-align: top;
+  color: white;
+  font-size: 24px ;
+  font-weight: 700;
+  line-height: 21px;
+  padding: 7px;
+}
+#div5{
+  background-color:#84151b ;
+  vertical-align: top;
+  color: white;
+  font-size: 24px ;
+  font-weight: 700;
+  line-height: 21px;
+  padding: 7px;
+}
+
+#div6{
+ border: 2px solid #706c64;
+  align-items: center;
+  text-align:center;
+  vertical-align: top;
+  height: 38px !important;
+  width: 38px !important;
+}
+#edit{
+  padding-top: 7px;
+}
+#editbutt{
+  background-color:#e0e0e0;
+  border-radius: 25px;
+  border: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  margin-top: 15px;
+  text-transform:capitalize;
+  padding: 7px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* #doneicon1{
+  color: white;
+  font-size: 24px ;
+  font-weight: 700;
+  line-height: 21px;
+  padding: 7px;
+  
+} */
+#labelsettingp{
+margin-left: 20px;
+font-size: 14px;
+font-weight: 400;
+line-height:21px;
+}
+#extendform{
+  width: 120%;
+}
+#addresspagebut{
+  padding: 30px;
+  padding-bottom: 40px;
+  border: 1px solid #706c64;
+  border-radius: 5px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+#tablediv12{
+margin-left: 20px;
+padding-bottom: 20px;
+
+  }
+  #tablediv12>div{
+    padding: 20px;
+    
+   border-bottom: 1px solid #706c64;
+    
+}
+#tablediv12>div>span:nth-child(2){
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;   
+  margin-left: 20px;  
+}
+#tablediv12>div>span:nth-child(3){
+    float: right;
+    color: blue;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21px;     
+  }
+#tablediv12>div>span:nth-child(3):hover{
+    text-decoration: underline;
+                
+     }
+      
+ 
+/* //cont---------------------------------------------------------------- */
+
+/*
+
+
+     /* //cont1.3--------------------------------------- */
+#pagecontainer1_3{
+    text-align: left;
+    align-items: left;
+}
+
+
+     #text>span{
+     font-size: 16px;
+     line-height: 24px;
+     margin: 16px 0px;
+     font-weight: 700;
+     color: #241e12;
+     }
+     #text>p{
+        color: #706c64;
+        margin-right: 25px;
+        font-size: 14px;
+        line-height: 21px;
+        font-family: aktiv-grotesk, sans-serif;
+        font-weight: 400;
+     }
+     #texteditor{
+         margin-bottom: 20px;
+
+     }
+
+     #pagecontainer1_4{
+      text-align: left;
+      align-items: left;
+  }
+  #pagecontainer1_4_1{
+   display: grid;
+   grid-template-columns: 30% 70%;
+}
+
+  
+  
+       #text12>span{
+       font-size: 16px;
+       line-height: 24px;
+       margin: 16px 0px;
+       font-weight: 700;
+       color: #241e12;
+       }
+       #inputtagpage>p{
+         margin-top: 20px;
+          color: #706c64;
+          margin-right: 25px;
+          font-size: 14px;
+          line-height: 21px;
+          font-family: aktiv-grotesk, sans-serif;
+          font-weight: 400;
+       }
+
+     
+#pagecontainer1_5{
+    text-align: left;
+   align-items: left;
+   
+}
+#pagecontainer1_5_1{
+     display: grid;
+     grid-template-columns: 35% 60%;
+     margin-bottom: 20px;
+  }
+  
+    
+    
+         #text123>span{
+         font-size: 16px;
+         line-height: 24px;
+         margin: 16px 0px;
+         font-weight: 700;
+         color: #241e12;
+         }
+         #inputtagpage12>p{
+           margin-top: 20px;
+            color: #706c64;
+            margin-right: 25px;
+            font-size: 14px;
+            line-height: 21px;
+            font-family: aktiv-grotesk, sans-serif;
+            font-weight: 400;
+         }
+         .form-text{
+          position:relative;
+        }
+        .form-text>input{
+         
+          padding:15px 15px 15px 50px;
+          border: 1px solid #e0e0e0;
+          border-radius: 5px;
+          background-color:#e0e0e0 ;
+
+        }
+        #youridhere{
+          width: 250px;
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 21px;
+        }
+        #adherid{
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 21px;
+        }
+        .static-value{
+          position:absolute;
+          left:10px;
+          font-weight:bold;
+          font-size:0.8em;
+          color:#444;
+          top:15px;
+        }
+        
+
+/* //right cont means container 2--------------------------------------------------------------------------- */
+
+#inputcontainer2_2{
+    text-align: left;
+    align-items: left;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: auto;
+    border: 1px solid #e5e3dd;
+    margin-top: 15px;
+    border-radius: 3px;
+}
+
+#inputcontainer2_2>p{
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1.4px;
+    font-weight: 700;
+    text-align: left;
+    color:#241e12 ;
+}
+#inputcontainer2_2>span{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    text-align: left;
+    color:#241e12 ;
+}
+
+
+#inputcontainer2_1_buttondiv>button{
+  width: 100%;
+  font-size: 16px;
+  color:#706c64 ;
+  font-weight:400;
+  padding: 10px;
+  border-radius: 25px;
+  text-transform: capitalize;
+
+}
+#inputcontainer2_3>p{
+    line-height: 21px;
+    letter-spacing: 1.4px;
+    font-weight: 700;
+    text-align: left;
+    color:#241e12 ;
+}
+#inputcontainer2_3>ul>li{
+    line-height: 21px;
+    font-size: 14px;
+    
+    font-weight: 400;
+    text-align: left;
+    color:#241e12 ;
+    text-decoration: underline;
+}
+
