@@ -4,6 +4,7 @@
     width: 60%;
     margin: auto;
     display: inline-flex;
+    height: fit-content;
 }
 .creatediv{
     /* padding: 28px; */

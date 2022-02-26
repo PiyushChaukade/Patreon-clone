@@ -76,7 +76,11 @@ import SignUp from './components/pages/SignUp';
 import Consulting from './components/pages/Consulting';
 import Login from './components/pages/Login';
 import Footer from './components/Footer/Footer';
-
+import {LitePage} from "./components/Lite/Lite.jsx"
+import First from "./components/Firstpage/first"
+import { Createrpage } from './components/createpage/createrpage';
+import { Createrpage1 } from './components/createpage1/createrpage1';
+import {BrowserRouter} from 'react-router-dom'
 function App() {
   const [user,setUser]=useState(null)
 
@@ -108,6 +112,8 @@ function App() {
      //console.log(user)
 
   return (
+    <div className="App">
+    
     <Router>
       <Navbar />
       
@@ -120,11 +126,20 @@ function App() {
         <Route path='/consulting' element={<Consulting />}></Route>
         <Route path='/Login.jsx' element={ user ? <Navigate to= "/" /> :  <Login />}></Route>
         <Route path='/SignUp.jsx' element={<SignUp />}> </Route>
+      
 
+        <Route path='/Lite' element={<LitePage/>}> </Route>
+        <Route path='/first' element={<First/>}> </Route>
 
+         <Route path='/createpage' element={<Createrpage/>}> </Route>
+         {/* <Route path='/create/adult' element={<Createrpage1/>}> </Route> */}
+         <Route  path='/create/adult' element={<Createrpage1/>}></Route>
+        
       </Routes>
       <Footer/>
     </Router>
+    
+    </div>
     
   );
 }

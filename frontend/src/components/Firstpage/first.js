@@ -2,7 +2,7 @@
 
 import "./firstStyle.css"
 
-
+import { Link } from 'react-router-dom';
 
 function First ()  {
     return(
@@ -17,7 +17,7 @@ function First ()  {
          </div>
          <div id="firsttd2">
              <div>
-                qrtethrjyk,gjhmngfbfvc
+               
              </div>
              <hr/>
              <div className="findcrea">
@@ -50,7 +50,7 @@ function First ()  {
                  <h4 className="myh4i">FIND CREATORS YOU LOVE</h4>
                  <hr/>
                  <p className="thirdchildp">The creators you already love may be on Patreon – connect your social media to find them.</p>
-            <button className="thirdchildbtn">Find Creators</button>
+            <button className="thirdchildbtn"><Link to="/createpage">Find Creators</Link></button>
              </div>
          </div>
 </div>

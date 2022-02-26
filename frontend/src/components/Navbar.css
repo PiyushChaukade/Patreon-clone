@@ -45,7 +45,7 @@
 .div2{
    padding: 10px;
    border-radius: 100px;
-   height: 25px;
+   height: 45px;
    width: 180px;
    color: white;
    padding-top: 15px;
@@ -66,4 +66,44 @@
 }
 #logout{
    margin-right: 20px;
+}
+#navbarbutton{
+   color: black;
+}
+#basic-button{
+   text-transform: capitalize;
+   color: gray;
+   margin-left: 10px;
+margin-bottom: 15px;
+  font-size: 17px;
+  text-decoration: none;
+  
+  font-family: sans-serif;
+ }
+ #basic-button:hover{
+
+  text-decoration: underline;
+
+ }
+ #menu1>div{
+  margin-right: 100px;
+ }
+ #menu1>p{
+   margin-right: 100px;
+}
+#dropdown-basic{
+width: 80px;
+border: none;
+
+font-size: 17px;
+  text-decoration: none;
+ margin-bottom: 40px;
+  font-family: sans-serif;
+}
+#dropdown-basic:hover{
+ 
+  border: none;
+  color: black;
+  border: 1px solid white;
+
 }

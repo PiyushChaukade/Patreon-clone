@@ -42,7 +42,7 @@ export const Createrpage = () => {
            </div>
 
            <ButtonUnstyled variant="contained" id='button' 
-           > <Link id='link1'  to="create/adult">Continue </Link></ButtonUnstyled>
+           > <Link id='link1'  to="/create/adult">Continue </Link></ButtonUnstyled>
            
            </div>
            <div className='createpageimgdiv'><img src={createrpage}  alt="createpage1"></img></div>

@@ -14,7 +14,7 @@ function Dropdown() {
         onClick={handleClick}
         className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
       >
-        {MenuItems.map((item, index) => {
+        {MenuItems.map((item,des, index) => {
           return (
             <li key={index}>
               <Link
@@ -22,7 +22,8 @@ function Dropdown() {
                 to={item.path}
                 onClick={() => setClick(true)}
               >
-                {item.title}
+               <p> {item.title}</p>
+               <p> {item.des}</p> 
               </Link>
             </li>
           );

@@ -1,26 +1,22 @@
 export const MenuItems = [
   {
-    title: 'Podcasters',
-    path: '/marketing',
+    title: 'Lite',
+    des:'Simple tools to set up recurring support from your fans ',
+    path: '/Lite',
     cName: 'dropdown-link'
   },
   {
-    title: 'video-Creators',
-    path: '/consulting',
+    title: 'Pro',
+    des:'All the tools to build and grow a thriving membership business ',
+    path: '/Pro',
     cName: 'dropdown-link'
   },
   {
-    title: 'Design',
-    path: '/design',
+    title: 'Premium',
+    des:'For established creatorsand creative business ',
+    path: '/Premium',
     cName: 'dropdown-link'
-  },
-  {
-    title: 'Development',
-    path: '/development',
-    cName: 'dropdown-link'
-  },
-  {
-    title:"",
-    path:"",
   }
+ 
+  
 ];

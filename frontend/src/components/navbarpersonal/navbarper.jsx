@@ -14,6 +14,7 @@ import { useContext } from "react"
 import {CartContext} from "./navbarcomponents/context/Cartcontextprovider"
 export const Navbar =()=>{
   const {cart}=useContext(CartContext);
+  
     const [anchorEl, setAnchorEl] = React.useState(null);
 
     const open = Boolean(anchorEl);

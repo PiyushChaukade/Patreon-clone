@@ -1,11 +1,12 @@
 .dropdown-menu {
-  background: red;
-  width: 120px;
+ 
+  width: 300px !important;
   position: absolute;
-  top: 80px;
+  top: 40px;
   list-style: none;
   text-align: start;
-  margin-right: 100px;
+  margin-right: 70px;
+  opacity: 1;
 }
 
 .dropdown-menu li {
