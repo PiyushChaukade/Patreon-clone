@@ -1,4 +1,5 @@
 
+import TestCode from '../Test/test'
 import './Home.css'
 
 function Home() {
@@ -38,7 +39,9 @@ return(
             </div>
             <div className='secondchilddiv2'>
             <img alt='pic' id='secondimg' src='https://live-patreon-marketing.pantheonsite.io/wp-content/uploads/2020/12/mikki_kendall.png'></img>
-            <a id='asdfg' href='https://www.patreon.com/karnythia'> wqdewfrver <br/> dsscdwc</a>
+            <a id='asdfg' href='https://www.patreon.com/karnythia'> Mikki Kendall <br></br>
+
+Writer </a>
             <p>The reliable monthly income has made it possible for me to spend less time chasing checks and more time creating.</p>
             </div>
         </div>
@@ -63,7 +66,9 @@ Writer, comedian, commentator
             </div>
             <div className='secondchilddiv2'>
             <img alt='pic' id='secondimg' src='https://live-patreon-marketing.pantheonsite.io/wp-content/uploads/2020/12/heather_mcdonald.png'></img>
-            <a id='asdfg' href='https://www.patreon.com/karnythia'> wqdewfrver <br/> dsscdwc</a>
+            <a id='asdfg' href='https://www.patreon.com/karnythia'> Heather McDonald
+
+<br/>Juicy Scoop Podcast</a>
             <p>"With Patreon, it’s not about likes and views, you can really connect with your fans, ignore the haters and focus on the positive. I’d rather have 300 patrons than 3 million Instagram followers."</p>
             </div>
         </div>
@@ -74,15 +79,7 @@ Writer, comedian, commentator
 
 
         <div className='mydiv6'>
-           <div id='imgput'>
-           
-
-           </div>
-         
-           <div id='tages'>
-            
-
-           </div>
+          <TestCode/>
            </div>
 
 
