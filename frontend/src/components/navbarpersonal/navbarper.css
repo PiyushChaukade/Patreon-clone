@@ -46,6 +46,17 @@
   line-height: 22px;
   text-transform: capitalize;
   }
+
+  #purple{
+    color:#706c64 ;
+    background-color: #e5e3dd;
+   
+}
+#orange{
+    color: white;
+    background-color: #090b78;
+    
+}
   /* .link2:hover{
     
     text-decoration-line: underline;

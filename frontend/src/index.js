@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import {CartContexProvider} from "./components/navbarpersonal/navbarcomponents/context/Cartcontextprovider"
 ReactDOM.render(
   <React.StrictMode>
+       <CartContexProvider>
     <App />
+    </CartContexProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
