@@ -8,8 +8,24 @@
   grid-template-columns: repeat(2, 45%);
   justify-content: space-evenly;
   margin-top: 50px;
-  height: 500px;
+  padding-bottom: 100px;
 }
 .div-img {
-  width: 100%;
+  width: 450px;
+}
+
+#imgtag {
+  margin-top: 150px;
+  width: 450px;
+}
+#secondmain {
+  margin-left: 50px;
+}
+a {
+  color: grey;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  text-decoration: underline;
 }

@@ -1,14 +1,14 @@
 import React, { useState } from "react";
-
+import './test.css'
 const TestCode = () => {
   const [image, setImage] = useState("");
   return (
     <>
     <div id="main">
-      <div className="div-img" style={{ width: "50px", height: "50px" }}>
-        <img alt="" src={image} />
+      <div className="div-img">
+        <img id="imgtag" alt="" src={image} />
       </div>
-      <div>.
+      <div id="secondmain">
         <a
           href="/fr/"
           onMouseEnter={() =>
