@@ -1,10 +1,11 @@
 
 import TestCode from '../Test/test'
 import './Home.css'
-
+import "../Navbar"
+import Navbar from '../Navbar'
 function Home() {
 return(
-    <div>
+    <div> 
         <div className='mydiv'>
            <div className='mydivchid1'>
                <h1 className='heading1'>Change the way art is valued</h1>

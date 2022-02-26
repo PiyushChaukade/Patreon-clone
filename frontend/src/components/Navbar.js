@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import Dropdown from './Dropdown';
-
+import SearchIcon from '@mui/icons-material/Search';
 function Navbar() {
 
   const logout=()=>{
@@ -38,7 +38,7 @@ function Navbar() {
        <div className="div1"> <Link className="link" to="/" onClick={closeMobileMenu} >Pricing</Link></div>
         <div className="div1"><Link className="link" to="/" onClick={closeMobileMenu} style={{margin:"5px"}}>Resources</Link></div>
         <div className="div1"> <Link className="link" to="/" onClick={closeMobileMenu} style={{margin:"5px"}}>Starter-kits</Link></div>
-          <input id='input1' type="search" placeholder='Find a Creator' />
+          <input id='input1' type="search" placeholder='Find a Creator'  />
         <div className="login"> <Link className="link" to="/Login.jsx">Login</Link></div>
         <div className="div2"> <Link  to="/SignUp.jsx" className="signup1" onClick={closeMobileMenu} >Create on Patreon</Link></div>
         <div className='div1' id='logout' onClick={logout} >logout</div>
