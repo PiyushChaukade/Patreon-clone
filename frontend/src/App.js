@@ -16,6 +16,7 @@ import { Pagesetting } from './components/navbarpersonal/navbarcomponents/pagese
 import { Preview } from './components/navbarpersonal/navbarcomponents/preview';
 import { Advanced } from './components/navbarpersonal/navbarcomponents/advanced';
 import Footer from './components/Footer/Footer';
+import { Creatorhome1 } from './components/navbarpersonal/navbarcomponents/Creator_home/Creatorhome1/Creatorhome1';
 
 
 function App() {
@@ -43,6 +44,10 @@ function App() {
          <Route  path='/create/navbar/edit/advanced' element={<Advanced/>}></Route>
          <Route  path='/create/navbar/edit/previewicon' element={<Preview/>}></Route>
         
+         
+         <Route  path='/create-home' element={<Creatorhome1/>}></Route>
+
+
          
         </Routes>
     

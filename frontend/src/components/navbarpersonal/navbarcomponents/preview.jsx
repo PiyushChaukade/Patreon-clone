@@ -1,14 +1,4 @@
 
-// import { Navbar } from "../navbarper"
-// export const Preview =()=>{
-//     return(
-//         <div> <Navbar/>
-//         <div>
-//            Preview
-//            </div>
-//         </div>
-//     )
-// }
 
 import {Link} from "react-router-dom"
 import { Navbar } from "../navbarper"
@@ -183,9 +173,10 @@ export const Preview =()=>{
                        </div>
 
                        <div id="previewtcontainer2_1_buttondiv">
+                        
                        <Button variant="contained"
                         id={cart %2 ===0 ? "purple" : "orange"}    >
-                          Launch </Button>
+                      <Link to="/create-home" style={{textDecoration:"none"}}>    Launch </Link> </Button>
                        <p>When you launch we review your content. Reviews usually take minutes, although some content takes
                             up to 3 days to review. You can continue editing your page after you launch.</p>
                       </div>

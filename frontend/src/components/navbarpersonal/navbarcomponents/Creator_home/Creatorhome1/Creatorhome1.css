@@ -1,0 +1,239 @@
+
+#leftsidebar{
+
+    width: 17%;
+    height: 600px;
+    border:  1px solid #e5e3dd;
+ 
+    background-color: #f5f4f2;
+    font-family: aktiv-grotesk, sans-serif;
+}
+#leftsidebar1{
+   margin-top: 20px;
+
+}
+#leftsidebar1>p{
+    margin-top: 10px;
+    font-size:14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #706c64;
+ }
+ #leftsidebar1>p>p{
+    font-size:12px;
+     color: #706c64;
+    font-weight: 500;
+    line-height: 21px;
+ }
+ /* #leftsidebar1>p:nth-child(3){
+    font-size:12px;
+     color: #706c64;
+    font-weight: 500;
+    line-height: 21px;
+ 
+ } */
+
+#leftsidebar1>img{
+  
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+#leftsidebaricon{
+display: flex;
+margin: auto;
+}
+
+#leftsidebaricon1{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #e5e3dd;
+    padding-top: 1px;
+    margin-left: 30px;
+}
+
+#leftsidebaricon2{
+    padding-top: 1px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #e5e3dd;
+    margin-left: 20px;
+}
+
+#leftsidebaricon3{
+    padding-top: 1px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #e5e3dd;
+    margin-left: 20px;
+}
+#leftsidebar2{
+margin-top: 20px;
+ text-align: left;  
+ margin-bottom: 20px;
+
+}
+#leftsidebar2>div{
+   color: black;
+    width: 100%;
+   height: 50px;
+padding: 10px;
+font-size: 14px;
+font-weight: 525;
+line-height: 21px;
+
+}
+#leftsidebar2>div:nth-child(1){
+   
+   border-top: 1px solid #706c64;
+   border-bottom: 1px solid #706c64;
+
+}
+#icons{
+    margin-right: 15px;
+}
+#leftsidebar2>div:nth-child(7){
+   margin-top: 30px;
+    border-top: 1px solid #706c64;
+    border-bottom: 1px solid #706c64;
+    color: #706c64;
+    font-weight:00;
+ 
+ }
+ #iconbutt{
+     background-color: #5158ff;
+     color: white;
+     border-radius: 20px;
+     width: 40px;
+     border: 1px solid#5158ff;
+ }
+ #leftsidebar123{
+     display:flex;
+     
+ }
+ #mainpage{
+    border: 1px solid #5158ff;
+    width: 75%;
+    margin-left: 13%;
+    margin-top: 30px;
+    text-align: left;
+ }
+ #mainpage1>h1{
+   font-size: 34px;
+   font-weight: 700;
+   line-height: 42.5px;
+
+ }
+ #mainpagecont{
+    border: 1px solid #5158ff;
+     display: grid;
+     grid-template-columns: auto auto;
+ }
+ #mainpagecont1,
+ #mainpagecont2
+ {
+     margin-top: 20px;
+    
+ }
+ #mainpagecont1_1{
+   margin-bottom: 20px;
+    width: 75%;
+ }
+ #mainpagecont1_1>p{
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1.4px;
+    font-weight: 700;
+    color:#706c64 ;
+    
+ }
+ #mainpagecont1_1_1{
+    padding: 20px;
+    width: 95%;
+    border: 1px solid #e5e3dd;
+    border-radius: 5px;
+     display: grid;
+     grid-template-columns: 50% 50%;
+ }
+
+ #mainpagecont1_1_1>span{
+    font-size: 28px;
+    line-height: 21px;
+    padding-top: 10px;
+    font-weight: 700;
+    color: black ;
+    vertical-align: bottom;
+     } 
+ #mainpagecont1_1_1>span>p{
+margin-left: 30px;
+margin-top: 5px !important;
+font-size: 16px !important;
+font-weight: 500 !important;
+color: #706c64;
+ } 
+ #mainpagecont1_1_1>span:nth-child(1){
+   border-right: 1px solid #706c64 !important;
+     } 
+     #mainpagecont1_1_1>span:nth-child(2){
+       margin-left: 25px;
+          } 
+ #mainpagecont1_1_1>span>div>a{
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    
+}
+#mainpagecont1_1_1>span>div{
+    margin-left: 30px;
+}
+ #zero{
+     vertical-align: bottom;
+    font-size: 36px;
+    line-height: 21px;
+    padding-top: 10px;
+    font-weight: 700;
+    color: black ;
+}
+#mainpagecont1_1_2{
+    padding: 20px;
+    width: 95%;
+    border: 1px solid #e5e3dd;
+    border-radius: 5px;
+ 
+ }
+ #mainpagecont1_1_2>h3{
+    font-size: 21px;
+    line-height: 26.25px;
+    font-weight: 700;
+    color: black ;
+ }
+ #mainpagecont1_1_2>p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #706c64 ;
+ }
+
+ #mainpagecont1_1_3>div{
+     padding-left: 18px;
+     padding-top: 15px;
+    height: 60px;
+    width: 60px;
+    background-color: #e5e3dd;
+    border-radius: 50%;
+
+ }
+ #mainpagecont1_1_3{
+     width: 60%;
+     padding: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-gap: 10%;
+}
+#imageslast{
+    width: 535px;
+    height: fit-content;
+}
