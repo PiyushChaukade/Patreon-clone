@@ -1,0 +1,92 @@
+h1{
+    margin-left: 50px;
+}
+#h3{
+    text-align: center;
+    font-weight: 1000;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.signupDiv{
+    border: 1px solid gray;
+    height: 700px;
+    width: 600px;
+    margin-left: 450px;
+    text-align: center;
+}
+#googlewith{
+    margin-top:50px;
+    border-radius: 50px ;
+    height: 45px;
+    margin-left: 50px;
+    width: 80%;
+    padding-top: 10px;
+    border: 1px solid gray;
+}
+#facebookwith{
+    margin-top:10px;
+    border-radius: 50px ;
+    height: 45px;
+    margin-left: 50px;
+    width: 80%;
+    padding-top: 10px;
+    border: 1px solid gray;
+}
+#hr{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 15px;
+    width: 85%;
+}
+.line{
+    display: inline-block;
+    height: 1px;
+    width: 200px;
+    border: 1px solid black;
+}
+#or{
+    display: inline-block;
+}
+input{
+    margin-top: 40px;
+    height: 50px;
+    width: 90%;
+}
+
+
+
+
+  .btn{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    font-size: larger;
+    display: block;
+    padding: 5px;
+    width: 540px;
+    height: 50px;
+    margin: 20px auto;
+  }
+   
+  .messages{
+    display: flex;
+    justify-content: center;
+  }
+   
+  .error{
+    display: block;
+    background-color: red;
+    color: white;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+  }
+   
+  .success{
+    display: block;
+    background-color: lightblue;
+    color: black;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+  }
