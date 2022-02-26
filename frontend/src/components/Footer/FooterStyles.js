@@ -51,10 +51,10 @@ export const Container = styled.div`
   `
   export const Logo = styled.div`
   /* background-image: url("https://img.icons8.com/ios/500/000000/twitter--v3.png"); */
-  width: 20%;
+  width: 30%;
   /* color: yellow; */
-  height: 30%;
- padding: 8px;  
+  height: 50%;
+ padding: 4px;  
  margin-right: 10px;
 
  background-color:#faebec;

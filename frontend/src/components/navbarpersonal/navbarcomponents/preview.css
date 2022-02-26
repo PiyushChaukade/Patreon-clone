@@ -1,0 +1,169 @@
+#navrbarcont{
+    height: fit-content;
+}
+
+
+#preview{
+  margin-top: 20px;
+    font-family: aktiv-grotesk, sans-serif;
+}
+#preview>p{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #706c64;
+}
+#preview>h1{
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #241e12;
+}
+
+#previewtcontainer{
+
+width: 72%;
+margin: auto;
+display: grid;
+grid-template-columns: 63% 33%;
+height: fit-content;
+grid-gap: 3%;
+}
+#previewtcontainer1{
+    border-radius: 3px;
+    border: 1px solid #e5e3dd;
+    height: 600px;
+}
+#previewtcontainer1>img{
+   width: 100%;
+   height: 600px;
+}
+#inputcontainer2{
+      
+        height: fit-content;
+        margin-top: 15px;
+}
+
+
+
+
+
+
+
+/* //cont---------------------------------------------------------------- */
+
+
+ 
+/* //cont1---------------------------------------------------------------- */
+    
+
+     /* //cont1.3--------------------------------------- */
+#previewtcontainer1_3{
+    text-align: left;
+    align-items: left;
+}
+
+
+     #text>span{
+     font-size: 16px;
+     line-height: 24px;
+     margin: 16px 0px;
+     font-weight: 700;
+     color: #241e12;
+     }
+     #text>p{
+        color: #706c64;
+        margin-right: 25px;
+        font-size: 14px;
+        line-height: 21px;
+        font-family: aktiv-grotesk, sans-serif;
+        font-weight: 400;
+     }
+     #texteditor{
+         margin-bottom: 20px;
+
+     }
+
+
+/* //right cont means container 2--------------------------------------------------------------------------- */
+
+#previewtcontainer2_2{
+    text-align: left;
+    align-items: left;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: auto;
+    
+    margin-top: 15px;
+    border-radius: 3px;
+}
+
+#previewtcontainer2_2>p{
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1.4px;
+    font-weight: 700;
+    text-align: left;
+    color:#241e12 ;
+}
+#previewtcontainer2_2>span{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    text-align: left;
+    color:#241e12 ;
+}
+#previewtcontainer2_1_buttondiv{
+    text-align: left;
+}
+
+#previewtcontainer2_1_buttondiv>button{
+  width: 100%;
+  font-size: 16px;
+
+  font-weight:600;
+  padding: 10px;
+  border-radius: 25px;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+#purple{
+    color:#706c64 ;
+    background-color: #e5e3dd;
+   
+}
+#orange{
+    color: white;
+    background-color: #090b78;
+    
+}
+
+#previewtcontainer2_1_buttondiv>p{
+font-size: 14px;
+margin-top: 10px;
+font-weight: 500;
+line-height: 21px;
+color:#706c64 ;
+
+}
+
+#previewtcontainer2_3>p{
+    line-height: 21px;
+    letter-spacing: 1.4px;
+    font-weight: 700;
+    text-align: left;
+    color:#241e12 ;
+}
+#previewtcontainer2_3>ul>li{
+    line-height: 21px;
+    font-size: 14px;
+    
+    font-weight: 400;
+    text-align: left;
+    color:#241e12 ;
+    text-decoration: underline;
+}
+
+#previewtcontainer2_2{
+
+}

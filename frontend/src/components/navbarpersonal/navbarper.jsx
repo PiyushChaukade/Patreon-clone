@@ -10,10 +10,10 @@ import "./navbarper.css"
 import * as React from 'react'
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
-
-
+import { useContext } from "react"
+import {CartContext} from "./navbarcomponents/context/Cartcontextprovider"
 export const Navbar =()=>{
-
+  const {cart}=useContext(CartContext);
     const [anchorEl, setAnchorEl] = React.useState(null);
 
     const open = Boolean(anchorEl);
@@ -63,7 +63,12 @@ export const Navbar =()=>{
       </Menu>
 
             <Link  className="link1" to="/create/navbar/edit/previewicon"   ><FontAwesomeIcon icon={faEye} />Preview</Link>
-            <Link className="link2" to="/create/navbar/edit/previewicon" ><Button variant="contained" disabled>Launch</Button></Link>  
+
+
+            <Link className="link2" to="/create/navbar/edit/previewicon" >
+              <Button variant="contained" 
+               id={cart %2 ===0 ? "purple" : "orange"} 
+              >Launch</Button></Link>  
 
 
          </div>
