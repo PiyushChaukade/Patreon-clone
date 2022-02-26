@@ -68,7 +68,7 @@ export const Navbar =()=>{
             <Link className="link2" to="/create/navbar/edit/previewicon" >
               <Button variant="contained" 
                id={cart %2 ===0 ? "purple" : "orange"} 
-              >Launch</Button></Link>  
+              > <Link to="/create-home" style={{textDecoration:"none"}}>    Launch </Link></Button></Link>  
 
 
          </div>
