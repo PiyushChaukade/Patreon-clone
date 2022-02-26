@@ -1,0 +1,15 @@
+#main {
+  display: grid;
+  width: 80%;
+  margin-left: 9.9%;
+  margin-top: 50px;
+  /* background-color: #ff424d; */
+  /* height: 600px; */
+  grid-template-columns: repeat(2, 45%);
+  justify-content: space-evenly;
+  margin-top: 50px;
+  height: 500px;
+}
+.div-img {
+  width: 100%;
+}

@@ -1,0 +1,117 @@
+.firstd {
+  width: 90%;
+  /* background-color: aqua; */
+  /* height: 600px; */
+  margin-left: 4.9%;
+  display: grid;
+  grid-template-columns: 24% 48% 24%;
+  gap: 1.5%;
+}
+#firsttd1 {
+  /* background-color: beige; */
+  margin-left: 6%;
+  /* height: 300px; */
+  border: 1px solid #e5e3dd;
+  height: 300px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+/* #firsttd2 {
+  /* background-color: blueviolet; */
+
+/* #firsttd3 {
+  /* background-color: rosybrown; */
+/* text-align: center; */
+/*} */
+#myfitpic {
+  height: 90px;
+  width: 90px;
+  border-radius: 45px;
+  background-color: black;
+  margin-left: 30%;
+  margin-top: 20px;
+}
+#myh2pic {
+  text-align: center;
+}
+#mysecpicd {
+  width: 100%;
+}
+.findcrea {
+  width: 99%;
+  border: 1px solid #e5e3dd;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 16px;
+}
+#btnsecdiv {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+  background-color: #00497c;
+  width: 215px;
+  height: 48px;
+  border-radius: 25px;
+  border: 1px solid #00497c;
+}
+#btndiv {
+  padding: 20px;
+}
+.stylebold {
+  color: black;
+  font-weight: 700;
+}
+#allspn {
+  margin-top: 35px;
+}
+#d3b1 {
+  width: 99%;
+  height: 200px;
+  /* background-color: #00497c; */
+  border-radius: 5px;
+  margin-top: 15px;
+  border: 1px solid #e5e3dd;
+}
+#d3b2 {
+  width: 99%;
+  height: 200px;
+  /* background-color: yellow; */
+  margin-top: 15px;
+  border-radius: 5px;
+  margin-top: 15px;
+  border: 1px solid #e5e3dd;
+}
+.myh4i {
+  margin-top: 15px;
+}
+hr {
+  background-color: #e5e3dd;
+  height: 0.1px;
+}
+.thirdchildp {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  font-family: aktiv-grotest, sans-serif;
+}
+.thirdchildbtn {
+  width: 120px;
+  height: 35px;
+  text-align: center;
+  color: #004c81;
+  font-weight: 500;
+  border-radius: 20px;
+
+  border: 1px solid #e1f0fa;
+  background-color: #d8ecf9;
+}
+.thirdchildbtn1 {
+  width: 131px;
+  font-weight: 500;
+  height: 35px;
+  border: 1px solid #e1f0fa;
+  text-align: center;
+  color: #004c81;
+  border-radius: 20px;
+  background-color: #d8ecf9;
+}
