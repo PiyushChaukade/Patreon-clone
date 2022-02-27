@@ -1,6 +1,7 @@
 import './Users.css'
 import down1 from "./down1.png"
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
+import { Link } from 'react-router-dom';
 function Users()  {
     return (
         <div>
@@ -20,7 +21,7 @@ function Users()  {
             </div>
             <div id='bin1'>
                 <div id='bin1child'>
-                    <button id='btnapple'>Become a patron</button>
+                    <button id='btnapple'> <Link to="/payment">Become a patron</Link></button>
                 </div>
                 <div id='secondc'>
                     <button id='second12'>Share</button>

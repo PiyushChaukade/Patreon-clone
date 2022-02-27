@@ -1,7 +1,9 @@
 #container {
   height: 99%;
   width: 99%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  margin-bottom: 100px;
+  padding-bottom: 200px;
 }
 #a1 {
   margin-top: 50px;
@@ -59,7 +61,7 @@
 }
 #tryit23 {
   /* background-color: red; */
-  height: 70px;
+  height: fit-content;
   border: 1px solid #e5e3dd;
 }
 #tryit11 {
@@ -72,12 +74,17 @@
   /* height: 500px; */
   border-radius: 5px;
   border: 1px solid #e5e3dd;
-  padding: 10px;
+  padding: 15px;
+  align-items:left;
+  text-align: left;
+
 }
 #hellodud {
   width: 100%;
   /* height: 80px; */
   background-color: azure;
+  display: grid;
+  grid-template-columns:  40px 80px;
 }
 #mra {
   width: 25px;
@@ -146,12 +153,12 @@
   font-size: 16px;
 }
 #vfieri {
-  color: rgb(227, 218, 219);
+  color: grey;
   width: 60%;
   height: 50px;
   border-radius: 25px;
-  background-color: #f5f4f2;
-  margin-left: 15%;
+  background-color:#f5f4f2;
+ 
   border: 1px solid #f5f4f2;
   margin-top: 20px;
 }
@@ -184,9 +191,7 @@
 #aooa {
   display: flex;
 }
-#aaaaaa {
-  display: flex;
-}
+
 #qsa {
   width: 40px;
   height: 40px;
@@ -196,10 +201,16 @@
   width: 70px;
   height: 40px;
   background-color: azure;
+  vertical-align: bottom !important;
+ 
 }
 #intr {
+  border: 1px solid yellow;
   width: 70px;
   height: 40px;
+  vertical-align: top;
+  
+  
 }
 #apple12 {
   width: 100%;

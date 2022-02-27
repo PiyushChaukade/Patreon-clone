@@ -96,7 +96,7 @@ import { Creatorhome1 } from './components/navbarpersonal/navbarcomponents/Creat
 import { Creatorhome2 } from './components/navbarpersonal/navbarcomponents/Creator_home/Creatorhome2/Creatorhome2';
 import {StandardPage}  from "./components/Pro/Pro.jsx"
 import Users from "./components/Users/Users.js"
-
+import Payment from "./components/payments/payments.jsx"
 
 function App() {
   const [user,setUser]=useState(null)
@@ -170,8 +170,9 @@ function App() {
          <Route  path='/create-home' element={<Creatorhome1/>}></Route>
          <Route  path='/createrhomepage2' element={<Creatorhome2/>}></Route>
          <Route  path='/Userspost' element={<Users/>}></Route>
+         <Route  path='/payment' element={<Payment/>}></Route>
+
          
-        
       </Routes>
       <Footer/>
     </Router>

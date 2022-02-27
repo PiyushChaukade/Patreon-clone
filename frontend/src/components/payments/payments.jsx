@@ -2,9 +2,16 @@ import React from "react";
 import "./payments.css"
 import myproimg from "./myproimg.png"
 import LockOpenIcon from '@mui/icons-material/LockOpen';
-export function Payment(){
+import { Link } from 'react-router-dom';
+function Payment () {
+
+function alertfun(){
+    alert("Payment succesfully")
+}
+
+
     return (
-        <div>
+   
     <div id="container">
         <div id="a1">
             <h3>Complete your monthly payment to Keshav Mishra</h3>
@@ -17,10 +24,12 @@ export function Payment(){
                 </div>
                 <div id="tryit23">
                     <div id="hellodud">
-                         <div id="aaaaaa">
-                              <div id="qsa"><p>$</p></div>
-                             <div id="qsaa"><input id="intr"></input></div> 
-                         </div>
+                         
+                              <div id="qsa">$ </div>
+                              <div><input id="intr"></input></div>
+                              
+                             
+                         
                     </div>
              </div>              
             </div>
@@ -33,7 +42,7 @@ export function Payment(){
                       <span id="mra">
                           <img alt="" src=""></img>
                       </span>
-                      <h3 id="card">Card</h3>
+                      <h3 id="card">Card details </h3>
                   </div>
                   <div>
                       <p className="namesfd">Name</p>
@@ -58,7 +67,7 @@ export function Payment(){
                       </div>
                   </div>
                   <div>
-                  <button id="vfieri">Pay With Card</button>
+                  <button id="vfieri" onClick={alertfun}><Link to="/">Pay With Card</Link></button>
                   </div>
                   <div id="alaoa"></div>
                   <div>
@@ -80,6 +89,7 @@ export function Payment(){
         </div>
         <p id="applexx">Patreon does not issue refunds on behalf of creators. Learn more.</p>
        </div>
-        </div>
+        
     )
 }
+export default Payment 
