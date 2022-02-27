@@ -1,0 +1,141 @@
+#background {
+  width: 99.98%;
+  height: 250px;
+  color: aquamarine;
+  background-color: red;
+}
+#propic {
+  width: 130px;
+  height: 130px;
+  background-color: whitesmoke;
+  border-radius: 65px;
+  margin-left: 47%;
+  margin-top: -85px;
+  padding: 2px;
+}
+#propic12 {
+  width: 130px;
+  height: 130px;
+  border-radius: 65px;
+}
+#myname {
+  width: 50%;
+  margin-left: 28%;
+  /* background-color: aqua; */
+
+  text-align: center;
+  margin-top: 30px;
+}
+#SAS {
+  color: #241e12;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 2px;
+}
+#aoo {
+  color: #706c64;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+#propi {
+  width: 100%;
+  height: 250px;
+}
+#fgwf {
+  text-align: center;
+  width: 30%;
+  margin-left: 38%;
+}
+#bin1 {
+  width: 40%;
+  margin-left: 32%;
+  text-align: center;
+  /* background-color: aqua; */
+  /* height: 300px; */
+  margin-top: 50px;
+}
+#btnapple {
+  width: 275px;
+  height: 35px;
+  color: #ffffff;
+  border: 1px solid #ff424d;
+  background-color: #ff424d;
+  border-radius: 35px;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 8px 16px 8px 16px;
+}
+#secondc {
+  width: 300px;
+  height: 60px;
+  margin-top: 10px;
+  margin-left: 90px;
+  /* background-color: #706c64; */
+}
+#second12 {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  background-color: #f9dee0;
+  color: #ff424d;
+  width: 112px;
+  padding: 8px 16px 8px 16px;
+  border: 1px solid #fae7e8;
+  margin-left: 10px;
+  border-radius: 25px;
+}
+#second13 {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  background-color: #f9dee0;
+  color: #ff424d;
+  width: 112px;
+  padding: 8px 16px 8px 16px;
+  border: 1px solid #fae7e8;
+  margin-left: 10px;
+  border-radius: 25px;
+}
+#mydot {
+  background-color: #fae7e8;
+  color: #ff424d;
+  height: 36px;
+  width: 36px;
+  border: 1px solid #f9e2e4;
+  border-radius: 20px;
+  margin-left: 15px;
+  vertical-align: bottom;
+}
+#showpro {
+  width: 82%;
+  margin-left: 8.9%;
+  /* height: 500px; */
+  /* background-color: #706c64; */
+  text-align: center;
+}
+#imgpic {
+  width: 99.9%;
+  /* height: 320px; */
+  margin-top: 150px;
+}
+#dsaa {
+  width: 99.9%;
+  height: 320px;
+}
+/* #apple {
+  font-size: ;
+  color: ;
+  font-weight: ;
+} */
+#apps {
+  width: 60%;
+  /* background-color: #ff424d; */
+  height: 250px;
+  margin-left: 19%;
+  border: 1px solid #e5e3dd;
+}
+#aappoo {
+  font-size: 16px;
+  line-height: 28px;
+}
