@@ -121,7 +121,7 @@ function Navbar() {
           <input id='input1' type="search" placeholder='Find a Creator'  />
         <div className="login"> <Link className="link" to="/Login.jsx">Login</Link></div>
         <div className="div2"> <Link  to="/SignUp.jsx" className="signup1" onClick={closeMobileMenu} >Create on Patreon</Link></div>
-        <div className='div1' id='logout' onClick={logout} >logout</div>
+        <div className='div1' id='logout' onClick={logout} >Signout</div>
     </div>
      
   );
