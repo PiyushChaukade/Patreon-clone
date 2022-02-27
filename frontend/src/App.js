@@ -93,7 +93,7 @@ import { Preview } from './components/navbarpersonal/navbarcomponents/preview';
 import { Advanced } from './components/navbarpersonal/navbarcomponents/advanced';
 // import Footer from './components/Footer/Footer';
 import { Creatorhome1 } from './components/navbarpersonal/navbarcomponents/Creator_home/Creatorhome1/Creatorhome1';
-
+import { Creatorhome2 } from './components/navbarpersonal/navbarcomponents/Creator_home/Creatorhome2/Creatorhome2';
 function App() {
   const [user,setUser]=useState(null)
 
@@ -162,7 +162,9 @@ function App() {
         
          
          <Route  path='/create-home' element={<Creatorhome1/>}></Route>
+         <Route  path='/createrhomepage2' element={<Creatorhome2/>}></Route>
 
+         
         
       </Routes>
       <Footer/>

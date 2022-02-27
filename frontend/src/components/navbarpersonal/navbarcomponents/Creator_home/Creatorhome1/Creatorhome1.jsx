@@ -24,6 +24,7 @@
          import createimg3 from"../../../../../assests/images/createimg3.png"
          import createimg4 from"../../../../../assests/images/createimg4.png"
          import createimg5 from"../../../../../assests/images/createimg5.png"
+         import {Link} from "react-router-dom"
       
          export const Creatorhome1=()=> {
         
@@ -111,7 +112,7 @@
 
                         <div id="mainpagecont1_1_3">
 
-                         <div><TextFieldsIcon/></div> 
+                         <div> <Link to="/createrhomepage2"> <TextFieldsIcon/></Link> </div> 
                          <div><ImageSearchIcon/></div> 
                          <div><VideoLibraryIcon/></div> 
                          <div><VideocamIcon/></div> 
@@ -147,9 +148,44 @@
 
                         <div id="mainpagecont2_1">
                           <h2>RECENT ACTIVITY</h2>   
-                          <div>
+                          <div  id="mainpagecont2_2">
                               <p>No unread messages from patrons</p>
                               <a href="hi">View messages</a>
+                          </div>
+                        </div>
+
+                        <div id="mainpagecont2_1">
+                            
+                          <div  id="mainpagecont2_2">
+
+                            <div id="mainpagecont2_3">
+                              <span><p>RECENT POSTS</p></span>
+                              <span> <a href="hi">View all posts</a></span>
+                             
+                              </div>
+                                
+                           
+
+                          
+                              
+                          </div>
+                        </div>
+                        
+                         <div id="mainpagecont2_1">
+                            
+                          <div  id="mainpagecont2_2_1">
+
+                            <div id="mainpagecont2_3">
+                              <span><p>You didn't  post anything yet</p></span>
+                              <br/>
+                              <span> <a href="hi">Post Here</a></span>
+                             
+                              </div>
+                                
+                           
+
+                          
+                              
                           </div>
                         </div>
 
