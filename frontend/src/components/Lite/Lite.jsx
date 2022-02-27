@@ -14,7 +14,7 @@ export const LitePage =() => {
                         <h3>PATREON LITE</h3>
                         <h1 className="h1">Just the basics</h1>
                         <p className="p">Simple tools to set up recurring support from your fans and run a membership business.</p>
-                        <button className="button1"><Link to="/first"> Get Started</Link></button>
+                        <button className="button1"><Link to="/first" className="button1"> Get Started</Link></button>
                     </div>
 
 
