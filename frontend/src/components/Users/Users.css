@@ -57,20 +57,21 @@
 }
 #btnapple {
   width: 275px;
-  height: 35px;
+  height: 45px;
   color: #ffffff;
   border: 1px solid #ff424d;
   background-color: #ff424d;
   border-radius: 35px;
   font-weight: 500;
   font-size: 14px;
-  padding: 8px 16px 8px 16px;
+  margin-bottom: 10px;
+  
 }
 #secondc {
   width: 300px;
   height: 60px;
   margin-top: 10px;
-  margin-left: 90px;
+  margin-left: 120px;
   /* background-color: #706c64; */
 }
 #second12 {
@@ -123,19 +124,23 @@
   width: 99.9%;
   height: 320px;
 }
-/* #apple {
-  font-size: ;
-  color: ;
-  font-weight: ;
-} */
+#apple {
+  margin-top: 20px;
+  font-size:28px ;
+  line-height: 21px;
+  font-weight:700 ;
+  margin-bottom: 30px;
+}
 #apps {
   width: 60%;
   /* background-color: #ff424d; */
-  height: 250px;
+  height: fit-content;
   margin-left: 19%;
   border: 1px solid #e5e3dd;
+  padding: 30px;
 }
 #aappoo {
   font-size: 16px;
   line-height: 28px;
+ 
 }
