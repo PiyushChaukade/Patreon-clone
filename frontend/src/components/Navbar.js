@@ -87,7 +87,7 @@ function Navbar() {
         </MenuItem>
       </Menu> */}
        
- <Dropdown id="dropdown-basic">
+ <Dropdown >
   <Dropdown.Toggle  id="dropdown-basic">
     
   Products
@@ -95,9 +95,19 @@ function Navbar() {
   </Dropdown.Toggle>
 
   <Dropdown.Menu>
-    <Dropdown.Item > <Link to="/Lite">Action</Link></Dropdown.Item>
-    <Dropdown.Item >Another action</Dropdown.Item>
-    <Dropdown.Item >Something else</Dropdown.Item>
+    <Dropdown.Item > <Link to="/Lite">Lite <br/>
+    <p>Simple tools to set up recurring support from your fans</p> </Link> 
+   
+    </Dropdown.Item>
+
+    <Dropdown.Item >  <Link to="/Pro"> Pro
+    <br/>
+    <p>All the tools to build and grow a thriving membership business</p></Link>
+    </Dropdown.Item>
+
+    <Dropdown.Item > <Link to="/Lite"> Premium  <br/>
+    <p>For established creatorsand creative business</p></Link>
+    </Dropdown.Item>
   </Dropdown.Menu>
 </Dropdown>
 

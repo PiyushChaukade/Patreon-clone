@@ -156,7 +156,7 @@ align-items: left !important;
   .container1 {
     position: relative;
     width: 118%;
-    height: 90%;
+    height: 100% !important;
    
   }
   .container1>img{

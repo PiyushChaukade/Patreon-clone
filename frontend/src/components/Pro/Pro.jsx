@@ -1,4 +1,5 @@
 import "./Pro.css";
+import { Link } from 'react-router-dom';
 
 export function StandardPage() {
     return (
@@ -12,7 +13,7 @@ export function StandardPage() {
                         <h3>PATREON LITE</h3>
                         <p className="h1">All the tools to &nbsp; &nbsp; &nbsp; master membership</p>
                         <p className="p">Build a thriving membership business that provides meaningful income for you and a rewarding experience for your patrons.</p>
-                        <button className="button1"> Get Started</button>
+                        <button className="button1"><Link to="/first"> Get Started</Link></button>
                     </div>
 
 

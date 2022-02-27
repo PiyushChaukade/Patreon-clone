@@ -135,7 +135,7 @@ const Table = styled.table`
             
            <div id='linlbutt4'>
             <Link to='/create/merch' style={{marginRight:"20px", fontSize:"17px"}}> Back </Link> 
-           <ButtonUnstyled variant="contained" id='button' 
+           <ButtonUnstyled variant="contained" id='buttoncr' 
            ><Link id='link1'  to="/create/navbar/edit/basic">Continue </Link></ButtonUnstyled>
            </div>
           

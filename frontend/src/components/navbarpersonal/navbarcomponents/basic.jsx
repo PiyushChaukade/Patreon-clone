@@ -238,12 +238,12 @@ export const Basic =()=>{
                        <div id="inputcontainer2_2">
                          <p>CHECKLIST</p>
                          <span>
-                         <Checkbox  defaultChecked label="Label" sx={{  color: green[800], '&.Mui-checked': {color: green[600]}}}/>
+                         <Checkbox   label="Label" sx={{  color: green[800], '&.Mui-checked': {color: green[600]}}}/>
                          Set your page name
                          </span>
 
                          <span>
-                         <Checkbox defaultChecked label="Label" sx={{  color: green[800], '&.Mui-checked': {color: green[600]}}}/>
+                         <Checkbox  label="Label" sx={{  color: green[800], '&.Mui-checked': {color: green[600]}}}/>
                          Create your headline Required
  
                          </span>
@@ -254,22 +254,22 @@ export const Basic =()=>{
                          </span>
 
                          <span>
-                         <Checkbox defaultChecked label="Label" sx={{  color: green[800], '&.Mui-checked': {color: green[600]}}}/>
+                         <Checkbox  label="Label" sx={{  color: green[800], '&.Mui-checked': {color: green[600]}}}/>
                          Upload profile picture
                          </span>
 
                          <span>
-                         <Checkbox defaultChecked label="Label" sx={{  color: green[800], '&.Mui-checked': {color: green[600]}}}/>
+                         <Checkbox  label="Label" sx={{  color: green[800], '&.Mui-checked': {color: green[600]}}}/>
                          Upload cover image Required
                          </span>
 
                          <span>
-                         <Checkbox defaultChecked label="Label" sx={{  color: green[800], '&.Mui-checked': {color: green[600]}}}/>
+                         <Checkbox  label="Label" sx={{  color: green[800], '&.Mui-checked': {color: green[600]}}}/>
                          Create about sectionRequired
                          </span>
 
                          <span>
-                         <Checkbox defaultChecked label="Label" sx={{  color: green[800], '&.Mui-checked': {color: green[600]}}}/>
+                         <Checkbox  label="Label" sx={{  color: green[800], '&.Mui-checked': {color: green[600]}}}/>
                          Finish account details Required
                          </span>
                       

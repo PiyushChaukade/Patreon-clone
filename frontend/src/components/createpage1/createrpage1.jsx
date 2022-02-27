@@ -128,8 +128,8 @@ export const Createrpage1= () => {
                   
            </div >
            <div id='linlbutt'>
-            <Link to='/' style={{marginRight:"20px", fontSize:"17px"}}> Back </Link> 
-           <ButtonUnstyled variant="contained" id='button' 
+            <Link to='/createpage' style={{marginRight:"20px", fontSize:"17px"}}> Back </Link> 
+           <ButtonUnstyled variant="contained" id='buttoncr' 
            ><Link id='link1'  to="/create/currency">Continue </Link></ButtonUnstyled>
          </div>
            </div>

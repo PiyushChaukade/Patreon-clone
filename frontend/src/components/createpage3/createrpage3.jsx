@@ -131,7 +131,7 @@ export const Createrpage3= () => {
            </div >
            <div id='linlbutt3'>
             <Link to='/create/currency' style={{marginRight:"20px", fontSize:"17px"}}> Back </Link> 
-           <ButtonUnstyled variant="contained" id='button' 
+           <ButtonUnstyled variant="contained" id='buttoncr' 
            ><Link id='link1'  to="/create/socials">Continue </Link></ButtonUnstyled>
            </div>
            <p id='linlbutt3p' >Merch for Membership <a href='f'>Terms of Use.</a></p>

@@ -15,6 +15,7 @@
   height: 300px;
   margin-top: 10px;
   border-radius: 4px;
+  padding: 10px;
 }
 /* #firsttd2 {
   /* background-color: blueviolet; */
@@ -23,16 +24,23 @@
   /* background-color: rosybrown; */
 /* text-align: center; */
 /*} */
-#myfitpic {
+#myfitpic{
   height: 90px;
   width: 90px;
   border-radius: 45px;
   background-color: black;
-  margin-left: 30%;
-  margin-top: 20px;
+  margin-left: 5%;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 10px;
 }
-#myh2pic {
-  text-align: center;
+#myh2pic1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 21px;
+  margin-top: 10px;
+ 
 }
 #mysecpicd {
   width: 100%;
@@ -71,18 +79,24 @@
   border-radius: 5px;
   margin-top: 15px;
   border: 1px solid #e5e3dd;
+  padding: 10px;
 }
 #d3b2 {
   width: 99%;
-  height: 200px;
+  height: 250px;
   /* background-color: yellow; */
   margin-top: 15px;
   border-radius: 5px;
   margin-top: 15px;
   border: 1px solid #e5e3dd;
+  padding: 10px;
 }
 .myh4i {
   margin-top: 15px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 21px;
+  
 }
 hr {
   background-color: #e5e3dd;
@@ -97,7 +111,7 @@ hr {
 .thirdchildbtn {
   width: 120px;
   height: 35px;
-  text-align: center;
+  margin-bottom: 30px;
   color: #004c81;
   font-weight: 500;
   border-radius: 20px;
@@ -106,7 +120,7 @@ hr {
   background-color: #d8ecf9;
 }
 .thirdchildbtn1 {
-  width: 131px;
+  width: 150px;
   font-weight: 500;
   height: 35px;
   border: 1px solid #e1f0fa;

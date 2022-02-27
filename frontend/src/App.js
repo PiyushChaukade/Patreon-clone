@@ -94,6 +94,10 @@ import { Advanced } from './components/navbarpersonal/navbarcomponents/advanced'
 // import Footer from './components/Footer/Footer';
 import { Creatorhome1 } from './components/navbarpersonal/navbarcomponents/Creator_home/Creatorhome1/Creatorhome1';
 import { Creatorhome2 } from './components/navbarpersonal/navbarcomponents/Creator_home/Creatorhome2/Creatorhome2';
+import {StandardPage}  from "./components/Pro/Pro.jsx"
+
+
+
 function App() {
   const [user,setUser]=useState(null)
 
@@ -142,6 +146,8 @@ function App() {
       
 
         <Route path='/Lite' element={<LitePage/>}> </Route>
+        <Route path='/Pro' element={<StandardPage/>}> </Route>
+
         <Route path='/first' element={<First/>}> </Route>
 
          <Route path='/createpage' element={<Createrpage/>}> </Route>

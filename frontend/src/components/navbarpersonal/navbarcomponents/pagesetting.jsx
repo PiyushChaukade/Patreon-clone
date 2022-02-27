@@ -572,7 +572,7 @@ const [color, setColor] = useColor("hex", "#121212");
                          </span>
 
                          <span>
-                         <Checkbox defaultChecked label="Label" sx={{  color: green[800], '&.Mui-checked': {color: green[600]}}}/>
+                         <Checkbox label="Label" sx={{  color: green[800], '&.Mui-checked': {color: green[600]}}}/>
                          Finish account details Required
                          </span>
                       

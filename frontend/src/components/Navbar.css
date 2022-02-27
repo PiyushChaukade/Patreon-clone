@@ -107,3 +107,7 @@ font-size: 17px;
   border: 1px solid white;
 
 }
+#dropdown-basic{
+   background-color: none;
+   border: none;
+}
