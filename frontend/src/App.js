@@ -95,7 +95,7 @@ import { Advanced } from './components/navbarpersonal/navbarcomponents/advanced'
 import { Creatorhome1 } from './components/navbarpersonal/navbarcomponents/Creator_home/Creatorhome1/Creatorhome1';
 import { Creatorhome2 } from './components/navbarpersonal/navbarcomponents/Creator_home/Creatorhome2/Creatorhome2';
 import {StandardPage}  from "./components/Pro/Pro.jsx"
-
+import Users from "./components/Users/Users.js"
 
 
 function App() {
@@ -169,7 +169,7 @@ function App() {
          
          <Route  path='/create-home' element={<Creatorhome1/>}></Route>
          <Route  path='/createrhomepage2' element={<Creatorhome2/>}></Route>
-
+         <Route  path='/Userspost' element={<Users/>}></Route>
          
         
       </Routes>

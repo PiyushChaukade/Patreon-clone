@@ -1,6 +1,6 @@
 
        import * as React from 'react';
-
+       import {Link} from "react-router-dom"
           import "./Creatorhome2.css" 
           import MessageIcon from '@mui/icons-material/Message';
           import BorderColorIcon from '@mui/icons-material/BorderColor';
@@ -111,7 +111,8 @@ import TextField from '@mui/material/TextField';
                           <div id="mainpagecont2_1">
                              
                             <div  id="mainpagecont2_222">
-                            <Button  id="mainpagecont2_222butt" variant="contained">Published now</Button>
+                            <Button  id="mainpagecont2_222butt" variant="contained">
+                               <Link id="mainpagecont2_222butt1" to="/Userspost">Published now</Link></Button>
                             </div>
                           </div>
   

@@ -165,14 +165,22 @@ line-height: 21px;
 #mainpagecont2_222butt{
     border-radius: 25px;
     background-color: blue;
-    color:white;
+    
     width: 80%;
     height: 50px;
     margin-left: 20px;
     margin-bottom: 15px;
+    text-decoration: none;
+    
+
    
 }
+#mainpagecont2_222butt1{
+    color: white;
+    text-decoration: none;
 
+   
+}
 
 
 
